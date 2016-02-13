@@ -1,3 +1,5 @@
+A [complete write-up of this project](http://www.trevorsimonton.com/blog/2016/02/13/variation-of-the-edit-distance-problem.html) is available on my blog
+
 # ShortPalindromes with dynamic programming
 
 This is a solution to a top coder problem called [ShortPalindromes](https://arena.topcoder.com/#/u/practiceCode/1292/1736/1861/2/1292).
@@ -44,4 +46,3 @@ ins a before frnt
 amanaplanacanalpanama
 ```
 
-I plan to write up a blog post on my approach for the curious :)
