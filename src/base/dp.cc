@@ -66,6 +66,7 @@ void DP::PDSolver::calcChart() {
       if (left->score < previous->score) {
         previous = left;
         action = INSERT_FWD;
+        cellScore = 1;
       }
 
       // did we reach the end of the palindrome?
