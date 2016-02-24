@@ -11,7 +11,7 @@ DP::PDSolver::PDSolver(std::string s) {
   auto i = str.begin();
   while (i != str.end()) {  // every character has a row
     auto ii = str.end() - 1;
-    while (ii >= i) {  // we have columns only up to the main diagonal
+    while (ii >= i) {  // we have columns only up to the minor diagonal
       grid.insert({{relidx(i)+1, str.size()-relidx(ii)}, Cell(*i, *ii)});
       --ii;
     }

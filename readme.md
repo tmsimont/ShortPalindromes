@@ -11,7 +11,7 @@ The goal of this problem is to figure out how to transform any string into a pal
 
 The combinatorics introduced by allowing insertion of characters anywhere in the string are explosive.
 
-My solution uses a chart to describe insert/match actions as two pointers move from one end of the input string to another. This is like the chart used for Levenshtein distance, but instead of two different strings, we use one forward version and one backward version of the same string. The tricky part is that they meet along the main diagonal, so we don't have just one solution in the bottom right, we have many solutions along the diagonal. Finding the minimum score along the diagonal, however, is trivial.
+My solution uses a chart to describe insert/match actions as two pointers move from one end of the input string to another. This is like the chart used for Levenshtein distance, but instead of two different strings, we use one forward version and one backward version of the same string. The tricky part is that they meet along the minor diagonal, so we don't have just one solution in the bottom right, we have many solutions along the diagonal. Finding the minimum score along the diagonal, however, is trivial.
 
 ## Running the program
 The first argument to pass into the program is the string you want to turn into a palindrome. 
